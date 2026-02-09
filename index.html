@@ -4,99 +4,214 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Karen Elizabeth Ferguson Careers</title>
+
   <style>
     body { font-family: Arial, sans-serif; margin: 0; background: #f5f7fa; color: #222; }
     header { background: #0d6efd; color: white; padding: 20px; }
-    nav a { color: white; margin-right: 15px; text-decoration: none; font-weight: bold; }
-    .hero { padding: 60px 20px; text-align: center; background: white; }
+    nav a { color: white; margin-right: 12px; text-decoration: none; font-weight: bold; }
+    .hero { padding: 70px 20px; text-align: center; background: #ffffff; }
     .section { padding: 40px 20px; max-width: 1000px; margin: auto; }
     .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
     .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+    .requirements-box { background: #fff3cd; border: 1px solid #ffeeba; padding: 20px; border-radius: 10px; margin-top: 25px; }
+    .warning-box { background: #f8d7da; border: 1px solid #f5c6cb; padding: 20px; border-radius: 10px; margin-top: 25px; }
+    .legal-box { background: #e2e3e5; border: 1px solid #d6d8db; padding: 20px; border-radius: 10px; margin-top: 25px; }
     footer { background: #111; color: #ccc; text-align: center; padding: 20px; margin-top: 40px; }
-    button { background: #0d6efd; color: white; border: none; padding: 12px 20px; border-radius: 8px; cursor: pointer; }
-    .contact-box { background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); text-align: center; }
-    a.apply-button { display: inline-block; background:#25D366; color:white; padding:14px 20px; border-radius:8px; text-decoration:none; font-weight:bold; margin:10px; }
-    a.email-button { display: inline-block; background:#0d6efd; color:white; padding:14px 20px; border-radius:8px; text-decoration:none; font-weight:bold; margin:10px; }
+
+    .whatsapp-float { position: fixed; bottom: 20px; right: 20px; z-index: 999; }
+    .whatsapp-float a {
+      background: #25D366; color: white; padding: 14px 18px;
+      border-radius: 50px; text-decoration: none; font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2); display: block; margin-bottom: 10px;
+      text-align: center;
+    }
   </style>
 </head>
+
 <body>
-  <header>
-    <h1>Karen Elizabeth Ferguson Careers</h1>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#jobs">Available Jobs</a>
-      <a href="#apply">Apply</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <section id="home" class="hero">
-    <h2>Welcome to Karen Elizabeth Ferguson Careers</h2>
-    <p>Your trusted platform for international and local job opportunities.</p>
-    <button onclick="document.getElementById('jobs').scrollIntoView()">View Jobs</button>
-  </section>
+<header>
+  <h1>Karen Elizabeth Ferguson Careers</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#jobs">Jobs / Vacancies</a>
+    <a href="#apply">Apply</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#faqs">FAQs</a>
+    <a href="#privacy">Privacy Policy</a>
+    <a href="#terms">Terms</a>
+  </nav>
+</header>
 
-  <section id="jobs" class="section">
-    <h2>Available Job Opportunities</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Caregiver</h3>
-        <p>Location: Canada</p>
-        <p>Requirements: Experience preferred</p>
-      </div>
-      <div class="card">
-        <h3>Warehouse Worker</h3>
-        <p>Location: Canada</p>
-        <p>Requirements: Physically fit</p>
-      </div>
-      <div class="card">
-        <h3>Truck Driver</h3>
-        <p>Location: Canada</p>
-        <p>Requirements: Valid driving license</p>
-      </div>
-      <div class="card">
-        <h3>Housekeeper</h3>
-        <p>Location: Canada</p>
-        <p>Requirements: Basic experience</p>
-      </div>
-      <div class="card">
-        <h3>Gardener</h3>
-        <p>Location: Canada</p>
-        <p>Requirements: Experience preferred</p>
-      </div>
-      <div class="card">
-        <h3>Delivery Driver</h3>
-        <p>Location: Canada</p>
-        <p>Requirements: Valid driving license</p>
-      </div>
-      <div class="card">
-        <h3>Store Attendant</h3>
-        <p>Location: Canada</p>
-        <p>Requirements: Basic experience</p>
-      </div>
-    </div>
-  </section>
+<!-- HOME -->
+<section id="home" class="hero">
+  <h2>Welcome to Karen Elizabeth Ferguson Careers</h2>
+  <p>
+    A professional recruitment and career support platform providing access to
+    international and local employment opportunities.
+  </p>
+  <p>
+    We assist applicants with documentation, job matching, and application support
+    for a smooth and transparent process.
+  </p>
+</section>
 
-  <section id="apply" class="section">
-    <h2>Apply for a Job</h2>
-    <div class="contact-box">
-      <p>You can submit your application via WhatsApp or Email only.</p>
-      <a href="https://wa.me/18078040046" target="_blank" class="apply-button">Apply via WhatsApp</a>
-      <a href="mailto:karen.careers.ferguson.ca@gmail.com" class="email-button">Apply via Email</a>
-    </div>
-  </section>
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <p>
+    Karen Elizabeth Ferguson Careers is a recruitment and career facilitation platform
+    focused on connecting qualified applicants with verified employment opportunities.
+    We provide structured guidance, documentation support, and application coordination
+    to ensure applicants follow the correct procedures.
+  </p>
+</section>
 
-  <section id="contact" class="section">
-    <h2>Contact Us</h2>
-    <div class="contact-box">
-      <p>Email: <a href="mailto:karen.careers.ferguson.ca@gmail.com">karen.careers.ferguson.ca@gmail.com</a></p>
-      <p>Phone / WhatsApp: <a href="https://wa.me/18078040046" target="_blank">+1 807 804 0046</a></p>
-      <p>Office Hours: Monday - Friday</p>
-    </div>
-  </section>
+<!-- SERVICES -->
+<section id="services" class="section">
+  <h2>Our Services</h2>
+  <ul>
+    <li>International & Local Job Referral Services</li>
+    <li>Application & Documentation Support</li>
+    <li>Work Visa Processing Guidance</li>
+    <li>Applicant Screening & Job Matching</li>
+    <li>Interview & Orientation Support</li>
+  </ul>
+</section>
 
-  <footer>
-    <p>© 2026 Karen Elizabeth Ferguson Careers. All rights reserved.</p>
-  </footer>
+<!-- JOBS -->
+<section id="jobs" class="section">
+  <h2>Jobs / Vacancies</h2>
+  <div class="cards">
+    <div class="card"><h3>Caregiver</h3></div>
+    <div class="card"><h3>Warehouse Worker</h3></div>
+    <div class="card"><h3>Truck Driver</h3></div>
+    <div class="card"><h3>Housekeeper</h3></div>
+    <div class="card"><h3>Gardener</h3></div>
+    <div class="card"><h3>Delivery Driver</h3></div>
+    <div class="card"><h3>Store Attendant</h3></div>
+  </div>
+
+  <div class="requirements-box">
+    <h3>Common Requirements for ALL Jobs</h3>
+    <ul>
+      <li>Valid Passport</li>
+      <li>Updated CV / Resume</li>
+      <li>Any Qualifications (if available)</li>
+      <li>Work Visa Processing Fee: <strong>$155</strong></li>
+      <li>Biometrics Fee (after visa approval): <strong>$85</strong></li>
+    </ul>
+  </div>
+</section>
+
+<!-- APPLY -->
+<section id="apply" class="section">
+  <div class="whatsapp-float">
+    <a href="https://wa.me/18078040046" target="_blank">💬 Main Office WhatsApp</a>
+    <a href="https://wa.me/254707077214" target="_blank" style="background:#128C7E;">
+      👩‍💼 Personal Assistant WhatsApp
+    </a>
+  </div>
+
+  <h2>Application</h2>
+  <p>
+    Applications are accepted strictly via WhatsApp or Email for faster and secure processing.
+  </p>
+
+  <ul>
+    <li>Main WhatsApp: +1 807 804 0046</li>
+    <li>Personal Assistant WhatsApp: +254 707 077 214</li>
+    <li>Email: karen.careers.ferguson.ca@gmail.com</li>
+  </ul>
+
+  <div class="requirements-box">
+    <h3>Application Handling Notice</h3>
+    <p>
+      All applications are processed on the applicant’s behalf by my personal assistant
+      with full authorization and oversight from me (<strong>Karen Elizabeth Ferguson</strong>).
+      Applicants are only required to submit valid documents and the applicable processing fees.
+    </p>
+  </div>
+
+  <!-- SCAM WARNING -->
+  <div class="warning-box">
+    <h3>⚠️ Scam Warning</h3>
+    <p>
+      Please beware of fraudsters and impostors. Karen Elizabeth Ferguson Careers
+      is ONLY represented through the official contacts listed on this website.
+    </p>
+    <p>
+      We will NEVER request payments through unofficial phone numbers, social media accounts,
+      or third-party agents not listed on this website.
+    </p>
+    <p>
+      If you are contacted by anyone claiming to represent us using different contact details,
+      please report and ignore such communication.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>Email: karen.careers.ferguson.ca@gmail.com</p>
+  <p>Main WhatsApp: +1 807 804 0046</p>
+  <p>Personal Assistant: +254 707 077 214</p>
+</section>
+
+<!-- FAQs -->
+<section id="faqs" class="section">
+  <h2>FAQs</h2>
+  <p><strong>Q:</strong> Do I need a passport?<br><strong>A:</strong> Yes, a valid passport is required.</p>
+  <p><strong>Q:</strong> How do I apply?<br><strong>A:</strong> Applications are submitted via WhatsApp or email only.</p>
+  <p><strong>Q:</strong> Are job offers guaranteed?<br><strong>A:</strong> Job placement depends on employer requirements and applicant qualifications.</p>
+</section>
+
+<!-- PRIVACY POLICY -->
+<section id="privacy" class="section">
+  <h2>Privacy Policy</h2>
+  <p>
+    We respect your privacy. All personal information and documents provided by applicants
+    are used strictly for recruitment, job referral, and visa processing support purposes.
+  </p>
+  <p>
+    We do not sell or share applicant information with unauthorized third parties.
+    All data is handled confidentially.
+  </p>
+</section>
+
+<!-- TERMS & DISCLAIMER -->
+<section id="terms" class="section">
+  <h2>Terms, Conditions & Legal Disclaimer</h2>
+
+  <div class="legal-box">
+    <p>
+      By using this website and submitting an application, you confirm that all information
+      provided is accurate and truthful to the best of your knowledge.
+    </p>
+
+    <p>
+      Karen Elizabeth Ferguson Careers acts as a recruitment facilitation and support platform.
+      We do not control embassy decisions, immigration approvals, or employer final hiring decisions.
+    </p>
+
+    <p>
+      Processing fees are administrative and support-related and are subject to change based on
+      government, embassy, or third-party service requirements.
+    </p>
+
+    <p>
+      We are not responsible for delays, rejections, or changes in immigration or employment
+      policies by governments, embassies, or employers.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Karen Elizabeth Ferguson Careers. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
